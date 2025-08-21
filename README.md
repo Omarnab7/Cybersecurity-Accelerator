@@ -34,10 +34,7 @@ This module contains the core arithmetic logic of the accelerator. Its primary f
 
 To test and deploy this project, you will need a **SystemVerilog-compatible toolchain** and a **Digilent NexysA7 FPGA board**.
 
-1.  Clone this repository:
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    ```
+1.  Clone this repository.
 2.  Add the four `.sv` files to your FPGA project.
 3.  Ensure your **RISC-V** soft core is configured to interface with the accelerator via the Wishbone bus.
 4.  Set `accelerator_top.sv` as the top-level module for synthesis and implementation.
